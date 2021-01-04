@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <div className="header__section fade__bottom__header">
-            <img src={process.env.PUBLIC_URL + "/logo.png"} />
+            <img src={process.env.PUBLIC_URL + "/logo.png"} alt="header image" />
         </div>
         <div className="fade__bottom"></div>
         </header>

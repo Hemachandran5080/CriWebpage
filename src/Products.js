@@ -1,4 +1,3 @@
-import Divider from "@material-ui/core/Divider";
 import React from 'react'
 import "./Products.css";
 
@@ -11,7 +10,7 @@ function Products() {
             </p>
             </div>
             <div className="image__section">
-                <img src={process.env.PUBLIC_URL + '/3.png'} />
+                <img src={process.env.PUBLIC_URL + '/3.png'} alt="products image" />
             </div>
             <div className="label__section">
                 <p>Valves - Pumps - Pipes - IoT Drives & Controllers
