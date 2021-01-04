@@ -1,0 +1,46 @@
+.header__section > img {
+    width: 300px;
+    padding-left: 75%;
+    padding-top: 20px;
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color:blanchedalmond;
+    }
+    .fade__bottom {
+        background-image: linear-gradient(
+            180deg,
+            transparent,
+            rgba(239,235,216),
+            #fdf4dc
+        );
+    } 
+}
+
+@media (min-width: 900px) {
+    .header__section > img {
+        position: relative;
+        right: 600px; 
+    }
+    .fade__bottom {
+        /* height: 12.4rem; */
+        background-image: linear-gradient(
+            180deg,
+            transparent,
+            rgba(239,235,216),
+            #FFFF99
+        );
+    }
+    .header__section {
+        background-color: white;
+    }
+    /* .fade__bottom__header {
+        background-image: linear-gradient(
+            180deg,
+            transparent,
+            rgba(235,235,235),
+            #fff
+        );
+    } */
+}

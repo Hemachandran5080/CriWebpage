@@ -1,0 +1,55 @@
+.contact__section {
+    padding-top: 40px;
+}
+
+
+.facebook__id > img, .phone > img, .link > img {
+    width: 15px;
+}
+
+.facebook__id {
+    float: left;
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+.link {
+    position: relative;
+    top: 60px;
+    left: 350px;
+}
+
+.phone {
+    position: relative;
+    left: 50px;
+    top: 130px;
+}
+
+
+@media (min-width: 900px) {
+    .contact__section {
+        display: flex;
+        /* justify-content: space-between;
+        padding: 20px; */
+    }
+     .facebook__id > img, .phone > img, .link > img {
+         width: 25px;
+         border-radius: 5px;
+    }
+    .phone > p, .facebook__id > p, .link > p {
+        padding: 2px;
+        padding-top: 0;
+    }
+    .facebook__id {
+        position: relative;
+        top: 125px;
+        left: 450px;
+    }
+    .link {
+        position: relative;
+        top: 125px;
+        left: 800px;
+        overflow: auto;
+    }
+}  
